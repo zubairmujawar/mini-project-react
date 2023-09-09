@@ -1,0 +1,20 @@
+nav {
+    display: flex;
+    height: 72px;
+    width: 100vw;
+    padding: 0 8px;
+    /* background-color: rgb(86, 84, 84); */
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style-type: none;
+    gap: 24px;
+    cursor: pointer;
+}
+nav ul li{
+    font-weight: 700;
+    font-size: 1rem;
+}

@@ -1,0 +1,28 @@
+.primaryBtn {
+  display: flex;
+  padding: 12px 8px;
+  align-items: flex-start;
+  gap: 10px;
+  background-color: black;
+  color: white;
+  min-width: 220px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.outlineBtn {
+  display: flex;
+  padding: 10px 18px;
+  align-items: flex-start;
+  gap: 10px;
+  background-color: white;
+  color: black;
+  border-radius: 2px solid black;
+  min-width: 220px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 100%;
+}

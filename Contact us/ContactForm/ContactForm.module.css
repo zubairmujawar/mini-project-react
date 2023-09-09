@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.top_btn {
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+}
+.ContactForm{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    position: relative; /*position relative for child */
+}
+.ContactForm form{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.form_contolar{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.form_contolar input{
+    height: 40px;
+    margin-top: 11px;
+    padding: 0 8px;
+}
+.form_contolar textarea{
+    margin-top: 11px;
+    padding: 18px 24px;
+
+}
+.form_contolar label{
+    position: absolute; /*position absolute for child */
+    /* top: -12px; */
+    left: 10px;
+    background: white;
+    padding: 0 10px;
+    font-size: 18px;
+}
