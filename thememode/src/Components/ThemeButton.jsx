@@ -1,6 +1,5 @@
 import useTheme from "../Context/theme";
 
-
 export default function ThemeBtn() {
    const onChangeBtn = (e) => {
     const darkModeStatus = e.currentTarget.checked
