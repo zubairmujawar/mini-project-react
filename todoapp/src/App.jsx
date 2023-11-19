@@ -10,14 +10,14 @@ function App() {
     input === "" ? alert("ok") : setitems([...items, input]);
     console.log(input);
     setinput("");
-    // if(input == ""){
-    //   alert("Please write Todo")
-    // }else{
-    //   setitems([...items, input])
-    //   console.log(input)
-    //   setinput("")
-    // }
+
   };
+  const deletedata = (id) => {
+    const updateItems = items.filter((element, index) => {
+      return index !== id
+    })
+    setitems(updateItems);
+  }
 
   return (
     <div className="flex main-div">
@@ -25,7 +25,7 @@ function App() {
       <form>
         <input
           type="text"
-          placeholder="write your todo"
+          placeholder="write your todo.."
           className=" border-e-red-300  border-black bg-slate-300 input"
           autoFocus
           value={input}
@@ -40,7 +40,7 @@ function App() {
             <ul className="ul" key={index}>
               <li className="li">
                 {element}
-                <span>Delete</span>
+                <span onClick={()=>deletedata(index)} >Delete</span>
               </li>
             </ul>
           );
