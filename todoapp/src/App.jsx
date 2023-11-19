@@ -18,7 +18,10 @@ function App() {
     })
     setitems(updateItems);
   }
-
+  const deleteAll = () => {
+    setitems([]);
+    
+  }
   return (
     <div className="flex main-div">
       <h1 className="text-3xl font-bold ">Todo App</h1>
@@ -46,6 +49,9 @@ function App() {
           );
         })
         }
+        <div className="clearbtndiv" >
+        <button className="btnclear" onClick={deleteAll}  >clear all</button>
+        </div>
       </form>
     </div>
   );

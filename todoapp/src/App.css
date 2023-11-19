@@ -20,6 +20,17 @@
   border-radius: 3px;
   cursor: pointer;
 }
+.clearbtndiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 6px;
+  margin: 8px;
+  font-size: 1rem;
+  background-color: rgb(255, 0, 0);
+  border-radius: 3px;
+  cursor: pointer;
+}
 .input{
   font-size: 1rem;
   padding: 6px;
