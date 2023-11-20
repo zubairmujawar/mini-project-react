@@ -16,7 +16,7 @@
   padding: 6px;
   margin: 8px;
   font-size: 1rem;
-  background-color: lightcoral;
+  background-color: #eb73ff;;
   border-radius: 3px;
   cursor: pointer;
 }
@@ -27,7 +27,7 @@
   padding: 6px;
   margin: 8px;
   font-size: 1rem;
-  background-color: rgb(255, 0, 0);
+  background-color: #eb73ff;;
   border-radius: 3px;
   cursor: pointer;
 }
@@ -35,7 +35,7 @@
   font-size: 1rem;
   padding: 6px;
   border: 1.5px solid black;
-  color: black;
+  background-color: rgb(255, 255, 255);
 }
 .ul{
   text-decoration: none;

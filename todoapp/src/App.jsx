@@ -29,7 +29,7 @@ function App() {
         <input
           type="text"
           placeholder="write your todo.."
-          className=" border-e-red-300  border-black bg-slate-300 input"
+          className="input"
           autoFocus
           value={input}
           onChange={(e) => setinput(e.target.value)}
