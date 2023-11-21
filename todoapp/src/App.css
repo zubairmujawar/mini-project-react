@@ -1,57 +1,73 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: rgb(56, 56, 56);
-
 }
 
-.main-div{
+.main-div {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  background-size: 500% auto;
+  background: repeating-linear-gradient(35deg, black, #ff00f2 140px);
+  animation: textShine 100s cubic-bezier(0.45, 0.43, 0.47, 0.44) infinite;
+  /* animation: bgchange infinite infinite 0.5ms ease-in-out 100deg cubic-bezier(0.165, 0.84, 0.44, 1); */
 }
-.btn{
+@keyframes textShine {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 50% 0%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+.btn {
   padding: 6px;
   margin: 8px;
   font-size: 1rem;
-  background-color: #eb73ff;;
+  color: #eb73ff;
+  background-color: black;
   border-radius: 3px;
   cursor: pointer;
 }
-.clearbtndiv{
+.clearbtndiv {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 6px;
   margin: 8px;
   font-size: 1rem;
-  background-color: #eb73ff;;
+  background-color: red;
   border-radius: 3px;
   cursor: pointer;
 }
-.input{
+.input {
   font-size: 1rem;
-  padding: 6px;
+  padding: 8px;
+  border-radius: 8px;
   border: 1.5px solid black;
   background-color: rgb(255, 255, 255);
 }
-.ul{
+.ul {
   text-decoration: none;
-  
 }
-.li{
+.li {
   font-size: 14px;
   padding: 6px;
-  background-color: lightcoral;
+  background-color: #eb73ff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 6px;
   border-radius: 5px;
 }
-span{
+span {
   background-color: red;
   font-size: 14px;
   padding: 6px;

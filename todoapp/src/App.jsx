@@ -23,14 +23,13 @@ function App() {
     
   }
   return (
-    <div className="flex main-div">
-      <h1 className="text-3xl font-bold ">Todo App</h1>
+    <div className="main-div">
+      <h1 className="text-3xl font-bold text-white ">Todo App</h1>
       <form>
         <input
           type="text"
           placeholder="write your todo.."
           className="input"
-          autoFocus
           value={input}
           onChange={(e) => setinput(e.target.value)}
         />
